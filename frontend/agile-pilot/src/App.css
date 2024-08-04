@@ -1,0 +1,523 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.login-header {
+  text-align: center; /* Center the text horizontally */
+}
+
+.additional-links {
+  text-align: center; /* Center align the content */
+  margin-top: 25px;
+}
+
+.navbar {
+  background-color: #fff; /* Set background color to white */
+  width: 200px; /* Set fixed width for the navbar */
+  height: 100vh; /* Set full height of the viewport */
+  position: fixed; /* Position the navbar */
+  left: 0; /* Align the navbar to the left side */
+  top: 0; /* Align the navbar to the top */
+  padding-top: 20px; /* Add padding for better spacing */
+  padding-left: 20px; /* Add left padding */
+  padding-right: 20px; /* Add right padding */
+  border-right: 2px solid #eeeeee;
+}
+
+.navbar ul {
+  list-style-type: none; /* Remove bullet points from list */
+  padding: 0;
+}
+
+.navbar li {
+  margin-bottom: 20px; /* Add margin between list items */
+}
+
+.navbar a {
+  color: #000; /* Set text color to black */
+  text-decoration: none; /* Remove default underline */
+  transition: color 0.3s ease; /* Add transition effect for color change */
+}
+
+.navbar a:hover {
+  color: #52f3ff; /* Change text color to bright cyan on hover */
+}
+
+.logo {
+  margin-bottom: 20px; /* Add margin below the logo */
+}
+
+.logo-image {
+  width: 120px; /* Adjust the width of the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.nav-link.active {
+  background-color: transparent; /* Remove background color for active link */
+  color: #00d5ff; /* Change the text color of the active link */
+  padding: 5px 10px; /* Add some padding for active link */
+  border-radius: 5px; /* Add some border radius to make it look rounded */
+}
+
+.user-info {
+  /* Add any necessary styles for the user info section */
+  position: absolute; /* Position the user info section */
+  bottom: 30px; /* Align the user info section to the bottom */
+  margin:15px;
+  left: 0; /* Align the user info section to the left */
+  width: 100%; /* Occupy the full width of the navbar */
+  padding: 10px; /* Add padding for better spacing */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.logout-link {
+  color: #52f3ff; /* Set color to cyan */
+  text-decoration: underline; /* Underline the text */
+}
+
+.logout-link:hover {
+  text-decoration: underline;
+}
+
+.logout-info {
+  margin-bottom: 10px; /* Add margin between the elements */
+}
+
+
+.team-content {
+  margin-left: 260px; /* Add margin to the left of team content to accommodate navbar */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1px; /* adding gap between the grid-gap*/
+  
+
+}
+
+.user-card {
+    width: 150px; /* Set fixed width */
+    height: 220px; /* Set fixed height */
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add margin to create consistent spacing */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+}
+
+.user-name {
+    background-color: #52f3ff; /* Background color for placard */
+    color: #fff; /* Text color for placard */
+    padding: 5px 10px; /* Padding for placard */
+    border-radius: 3px; /* Rounded corners for placard */
+    margin-top: 20px;  /*Negative margin to overlap with card */
+    margin-bottom: 10px; /* Adjust margin for spacing */
+    display: inline-block; /* Display inline to fit content */
+}
+
+
+.user-image-team {
+  width: 80%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.user-details h2 {
+  margin-bottom: 5px;
+}
+
+.user-details p {
+  color: #666;
+  margin: 0;
+}
+
+.additional-links a {
+  margin: 0 10px; /* Add some horizontal spacing between the links */
+  color: rgb(53, 187, 194); /* Change the color of the links */
+}
+
+.additional-links a:hover {
+  color: rgb(82, 243, 255); /* Change the color of the links on hover */
+}
+
+.login-form {
+  width: 325px;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type='text'],
+input[type='password'] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.login-image {
+  width: 200px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure the image is centered */
+  margin: 0 auto 20px; /* Center horizontally and add margin below */
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #3fd6ed;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+button:hover {
+  background-color: #00b0bd;
+}
+
+
+
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* This will align the links to the left */
+}
+
+
+
+/* The Dashboard css */
+
+.tiles-container {
+  display: flex;
+  justify-content:30px;
+  margin-top: 20px;
+ 
+}
+
+.tile {
+  margin:3px;
+  width: 297px;
+  height: 130px;
+  background-color: #eae5e5; /* Gray color */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow */
+  margin: 0 5px;
+ 
+}
+
+.tile-heading{
+  margin: 10px;
+}
+
+.issue-table {
+  width: calc(76% - 20px);
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid #ddd; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.issue-table th {
+  background-color: #f2f2f2; /* Grayish color */
+  padding: 10px;
+  text-align: left;
+}
+
+.issue-table td {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.issue-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.status-options {
+  margin-bottom: 5px;
+  
+}
+
+.tasks-heading {
+  margin-bottom: 1px;
+}
+
+.status-options span {
+  margin-right: 10px;
+  margin-top: 10px; 
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.status-options span:hover {
+  text-decoration: underline;
+  color: #52f3ff;
+}
+
+.create-task-button {
+  width: 140px;
+  background-color: #a8bec0;
+  color: #ffffff;
+  padding: 8px 16px; /* Adjust button size */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.sort-by-button{
+  margin:10px;
+  width: 140px;
+  background-color: #a8bec0;
+  color: #ffffff;
+  padding: 8px 16px; /* Adjust button size */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sort-by-button:hover {
+  background-color: #3fd6ed;
+}
+
+.activity-section {
+  float: right;
+  width: 200px;
+  height: 100px; /* Adjust width as needed */
+  margin-top: 20px;
+}
+
+.activity-heading {
+  margin-bottom: 10px;
+}
+
+.activity-tiles {
+  height: 250px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.activity-tile {
+  width: 100%;
+  height: 100px; /* Adjust height as needed */
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.user-image {
+  margin-top: 5px;
+  margin-left: 3px;
+  width: 45px; 
+  height: 40px; 
+  border-radius: 50%; 
+}
+
+
+/* #################  VYANKY ###################*/
+
+/* ############# STARTS HERE  (BELOW) ##########*/
+
+/* App.css */
+.button-group {
+  margin-top: 20px;
+}
+
+.create-team-button,
+.add-people-button {
+  background-color: #3fd6ed;
+  margin-bottom: 15px;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  width: 115px; 
+  height: 35px; 
+}
+
+.remove-people-button {
+  background-color: #ffa743;
+  margin-bottom: 15px;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  width: 115px;
+  height: 35px;
+}
+.remove-people-button:hover {
+  background-color: #e27a12;
+}
+.create-team-button:hover,
+.add-people-button:hover {
+  background-color: #00b0bd;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-inner {
+  position: relative; 
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.popup h2 {
+  margin-bottom: 20px;
+}
+
+.popup input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.popup button {
+  width: calc(100% - 20px);
+  padding: 10px;
+  background-color: #3fd6ed;
+  color: #fff;
+}
+
+.popup button:hover {
+  background-color: #00b0bd;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: inline-block;
+  width: 120px; 
+  margin-right: 10px;
+}
+
+.input-group input {
+  width: calc(100% - 130px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.create-task-button:hover {
+  background-color: #3fd6ed;
+}
+
+.user-list-container {
+  max-height: 200px; 
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.user-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left; 
+}
+
+.user-list-item {
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-list-item:hover {
+  background-color: #ebebeb;
+}
+
+.user-list-item.selected {
+  background-color: #3fd6ed;
+  color: #fff;
+}
+
+
+
+.popup .remove-button {
+  background-color: #ffa743;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup .remove-button:hover {
+  background-color: #e27a12;
+}
+
+/* ############## ENDS HERE  (ABOVE) ##############*/
+
+/* #################  VYANKY ###################*/

@@ -1,0 +1,56 @@
+Name: Prathamesh Kalantri
+1. I am good in drawing
+2. I am good in Mathematical calculations.
+3. I scored 5 marks in JEE
+
+
+Gitesh : selected as cs player for college
+Pranjal: I like to paint
+Prasad : I like veg food more than non veg
+Vyankatesh: I did IEEE project
+
+
+Name: Vyankatesh Kalantri
+
+I never tested alcohol before.
+I have spects from 3rd standard.
+I never published a project in IEEE.
+
+Pranjal Pimpale: I like red color
+Gitesh Pawar: I was captain of district team for my college
+Prathamesh Kalantri: I am good in drawing
+Prasad Shinde: I like veg food more than non-veg food
+
+
+Name: Prasad Shinde
+
+I would like to play various TPP and FPP video games on the phone or on laptop.
+I want to expolre various places in the world and also want to experience various adventures like paragliding, scuba diving, etc.
+I like veg food more than non veg food.
+
+Pranjal: like red colour.
+Prathamesh: good in drawing. 
+Gitesh: Selected as a captain for his college cricket team.
+Vyankatesh: I never published research project in IEEE.
+
+Name: Gitesh Pawar
+
+1. I was selected for cs1.6 college team.
+2. I was selected for chess tournament in Nashik region.
+3. I was captain of cricket team of my College.
+
+
+Prathamesh: I scored 5 marks in JEE
+Pranjal: I like red color
+Vankatesh: I never published research paper before
+Prasad: I like veg food more than non-veg food
+
+Name: Pranjal Pimpale
+1. I like red colour.
+2. I like to cook.
+3. I like to paint.
+
+Vyankatesh Kalantri: I never published project in IEEE.
+Prasad Shinde: I like veg food more than non veg food.
+Gitesh Pawar: I was a captain of cricket team of previous college.
+Prathamesh Kalantri: I am good in drawing.

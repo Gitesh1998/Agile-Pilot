@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "API services",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --config jest.config.js --testTimeout 20000"
+  },
+  "author": "AgilePilot",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
