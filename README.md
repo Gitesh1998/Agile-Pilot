@@ -17,7 +17,7 @@ Follow these steps to set up the project locally:
 
 1. **Clone the Repository**
     ```bash
-    git clone [https://github.com/prathameshkalantri/Agile-Flow.git](https://github.com/prathameshkalantri/Agile-Flow.git)
+    git clone (https://github.com/prathameshkalantri/AgilePilot.git)
     cd <project_directory>
     ```
 
