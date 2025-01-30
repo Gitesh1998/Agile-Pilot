@@ -108,3 +108,10 @@ Below are some screenshots of the project:
 
 
 
+
+### Contact:
+![https://www.linkedin.com/in/gitesh-pawar-r/](https://cdn-icons-png.flaticon.com/128/3536/3536505.png)
+![giteshpawar56@gmail.com](https://cdn-icons-png.flaticon.com/128/732/732200.png)
+
+### License:
+Distributed under the GPL License.
