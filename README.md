@@ -1,6 +1,5 @@
 # AgilePilot
 
-
 AgilePilot is a user-friendly project management tool designed to facilitate Agile methodologies. The primary objective is to simplify project workflows, encourage collaboration, and empower teams to achieve their objectives effortlessly. Unlike traditional project management tools, AgilePilot focuses on accessibility, especially for beginners, by providing intuitive features that support Agile ceremonies, enhance transparency, and foster a collaborative environment.
 
 ## Features
